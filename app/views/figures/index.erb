@@ -1,0 +1,6 @@
+<h1>Figures</h1>
+<%@figures.each do |figure|%>
+  <ul style="list-style: none; padding: 5px;">
+    <li><a href="/figures/<%=figure.id%>"><%=figure.name%></a></li>
+  </ul>
+<%end%>
